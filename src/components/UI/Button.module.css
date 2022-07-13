@@ -1,0 +1,55 @@
+.button {
+  height: 16rem;
+  width: 16rem;
+  border-radius: 50%;
+  pointer-events: none;
+  transition: all 0.3s ease-out;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-paper {
+  background: linear-gradient(hsl(230, 89%, 62%), hsl(230, 89%, 65%));
+  box-shadow: inset 0 -10px 0 -2px hsla(230, 53%, 31%, 0.482);
+}
+
+.button-paper:hover {
+  background: linear-gradient(hsl(230, 89%, 62%), hsl(230, 89%, 65%));
+  box-shadow: none;
+}
+
+.button-rock {
+  background: linear-gradient(hsl(349, 71%, 52%), hsl(349, 70%, 56%));
+  box-shadow: inset 0 -10px 0 -2px hsla(349, 72%, 29%, 0.77);
+}
+
+.button-rock:hover {
+  box-shadow: none;
+}
+
+.button-scissors {
+  background: linear-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+  box-shadow: inset 0 -10px 0 -2px hsla(40, 67%, 44%, 0.992);
+}
+
+.button-scissors:hover {
+  box-shadow: none;
+}
+
+.button button {
+  cursor: pointer;
+  border: none;
+  background-color: #f8f8f8;
+  height: 12rem;
+  width: 12rem;
+  border-radius: 50%;
+  box-shadow: inset 0 10px 0 -4px hsl(218, 21%, 82%);
+  transition: all 0.5s ease-out;
+  pointer-events: auto;
+}
+
+.button button:hover {
+  box-shadow: none;
+}

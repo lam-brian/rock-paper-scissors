@@ -1,0 +1,40 @@
+.scoreboard {
+  max-width: 72rem;
+  border: 2px solid hsl(217, 16%, 45%);
+  border-radius: 8px;
+  margin: 0 auto;
+  padding: 1.4rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scoreboard img {
+  max-width: 48rem;
+}
+
+.scoreboard div {
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  width: 15rem;
+  padding: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.scoreboard div span:first-child {
+  font-size: 2rem;
+  color: hsl(229, 64%, 46%);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.scoreboard div span:nth-child(2) {
+  font-size: 6.2rem;
+  color: hsl(229, 25%, 31%);
+  font-weight: 700;
+}
