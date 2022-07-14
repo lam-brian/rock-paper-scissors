@@ -1,0 +1,34 @@
+.rules {
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4.8rem;
+  width: 38rem;
+  height: 38rem;
+  padding: 2.4rem;
+  border-radius: 8px;
+}
+
+.rules > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rules > div span {
+  color: hsl(229, 25%, 31%);
+  font-weight: 700;
+  font-size: 2.8rem;
+}
+
+.rules > div button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.rules > img {
+  width: 80%;
+}

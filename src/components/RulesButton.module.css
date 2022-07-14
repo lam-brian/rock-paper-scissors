@@ -1,0 +1,13 @@
+.rulesBtn {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  color: #f8f8f8;
+  font-size: 1.6rem;
+  padding: 1rem 2.4rem;
+  letter-spacing: 2px;
+  background: none;
+  border: 2px solid hsl(217, 16%, 45%);
+  border-radius: 8px;
+  cursor: pointer;
+}
