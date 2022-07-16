@@ -1,0 +1,57 @@
+.gameStart {
+  margin-top: 10.2rem;
+  display: flex;
+  justify-content: center;
+  gap: 12rem;
+}
+
+.gameStart > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.gameStart h2 {
+  color: #f8f8f8;
+  font-size: 2.4rem;
+  margin-bottom: 7.2rem;
+}
+
+.dot {
+  background-color: rgba(0, 0, 0, 0.227);
+  height: 16rem;
+  width: 16rem;
+  border-radius: 50%;
+  transform: scale(1.2);
+}
+
+.playAgain {
+  align-self: center;
+  margin-top: 10rem;
+}
+
+.playAgain span {
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 1.4rem;
+  letter-spacing: 2px;
+}
+
+.playAgainBtn {
+  background-color: #f8f8f8;
+  color: hsl(229, 25%, 31%);
+  border: none;
+  font-size: 1.6rem;
+  font-family: inherit;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 1.2rem 5.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.playAgainBtn--lose {
+  color: hsl(349, 70%, 56%);
+}

@@ -53,3 +53,14 @@
 .button button:hover {
   box-shadow: none;
 }
+
+.button--active {
+  transform: scale(1.5);
+  position: relative;
+  z-index: 1;
+}
+
+.button--active button {
+  cursor: none;
+  pointer-events: none;
+}
