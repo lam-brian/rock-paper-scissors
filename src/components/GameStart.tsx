@@ -17,7 +17,7 @@ const GameStart = () => {
     const timer = setTimeout(() => {
       dispatch(uiActions.showCPU(true));
       dispatch(gameActions.setWinner());
-    }, 2000);
+    }, 500);
 
     return () => {
       clearTimeout(timer);
