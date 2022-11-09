@@ -38,3 +38,9 @@
   color: hsl(229, 25%, 31%);
   font-weight: 700;
 }
+
+@media (max-width: 31em) {
+  .scoreboard img {
+    transform: scale(0.8);
+  }
+}

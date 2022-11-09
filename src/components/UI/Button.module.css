@@ -64,3 +64,21 @@
   cursor: none;
   pointer-events: none;
 }
+
+@media (max-width: 57em) {
+  .button {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 31em) {
+  .button {
+    height: 12rem;
+    width: 12rem;
+  }
+
+  .button button {
+    height: 9rem;
+    width: 9rem;
+  }
+}

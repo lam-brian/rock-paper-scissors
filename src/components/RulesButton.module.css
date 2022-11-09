@@ -10,4 +10,5 @@
   border: 2px solid hsl(217, 16%, 45%);
   border-radius: 8px;
   cursor: pointer;
+  z-index: 999;
 }
